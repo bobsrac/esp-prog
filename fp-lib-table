@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "HVAC")(type "KiCad")(uri "${KIPRJMOD}/esp-prog.pretty")(options "")(descr ""))
+)
