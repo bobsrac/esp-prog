@@ -2,8 +2,9 @@
 
 esp32 programmer - USBC to custom DF13-7 connector
 
-This is from the circuit on the ESP32-C6-DevKitC-1 board from Espressif.  It
-includes the USB-UART, BJT translators for reset and boot mode, and a 3.3V LDO.
+This is from the circuit on the [ESP32-C6-DevKitC-1](https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c6/esp32-c6-devkitc-1/user_guide.html#hardware-reference)
+board from Espressif.  It includes the USB-UART, BJT translators for reset and
+boot mode, and a 3.3V LDO.
 
 * Full kicad sources included
 * Tested by flashing ESP32-C6-WROOM-1-N8 module using ![cargo-espflash](https://github.com/esp-rs/espflash/blob/main/cargo-espflash/README.md)
@@ -40,3 +41,7 @@ Route pin 1 to pin1, and pin 7 to pin 7.  With the pre-crimped wires from
 Digi-Key, the cable will want to lay with both connectors facing the same
 direction, with a half-twist in the middle.  With the wires all laying flat and
 in parallel, one connector will be up while the other is down.
+
+## Template for Target PCA (Board to be programmed)
+
+See [target-template](target-template/).
